@@ -1,5 +1,5 @@
 {
-  "name": "@omnirepo/web",
+  "name": "@monorepo/web",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,9 +7,10 @@
     "start": "webpack-dev-server --mode development"
   },
   "dependencies": {
+    "@monorepo/common": "*",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "@omnirepo/axios-config": "*"
+    "styled-system": "^5.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",

@@ -1,5 +1,5 @@
 {
-  "name": "omnirepo",
+  "name": "monorepo",
   "private": true,
   "version": "1.0.0",
   "main": "index.js",
@@ -13,10 +13,14 @@
     ]
   },
   "devDependencies": {
-    "@omnirepo/eslint-config": "*",
+    "@monorepo/eslint-config": "*",
     "@types/jest": "^26.0.5",
+    "@types/styled-system": "^5.1.10",
     "jest": "^26.1.0",
     "ts-jest": "^26.1.3",
     "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "styled-system": "^5.1.5"
   }
 }
